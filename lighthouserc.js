@@ -1,13 +1,13 @@
 module.exports = {
-    ci: {
-      collect: {
-        url: ['https://www.businessinsider.com/']
-      },
-      assert: {
-        'categories:accessibility': ['error', {'minScore': 0.8}]
-      },      
-      upload: {
-        target: 'temporary-public-storage',
-      },
+  ci: {
+    collect: {
+      url: ['https://www.businessinsider.com/']
     },
-  };
+    assert: {
+      'categories:accessibility': ['error', { 'minScore': 0.8 }]
+    },      
+    upload: {
+      target: 'temporary-public-storage',
+    },
+  },
+};
